@@ -105,6 +105,7 @@ try:
     print("ACCOUNT DELETED! is visible")
 
     driver.find_element(By.XPATH, '//*[@id="form"]/div/div/div/div/a').click()
+    time.sleep(1)
 
 finally:
     driver.quit()

@@ -18,3 +18,18 @@ The tests cover various flows of the website, including:
 
 - Python 3.11+
 - Google Chrome installed
+
+## How to Run
+
+### Clone the repository
+```bash
+git clone <your-repo-url>
+cd <repo-folder>
+```
+### Run the test scripts
+```bash
+#Replace <name_file> with your test script filename
+python <name_file>
+
+#Example
+python TestCase1_Register_User.py
